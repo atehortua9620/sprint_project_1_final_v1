@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hello world</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css"></link>
+    <link rel="stylesheet" href="style.css" type="text/css"></link>
+    
+  </head>
+  <body>
+
+
+    <div class="menu_cont">
+      <img class="logo" src="./SVG_header/logo.svg"></img>
+      <div class="items_cont" >
+          <a class="items_menu" href="#EPISODIOS"> EPISODIOS</a>
+          <a class="items_menu" href="#NOSOTROS"> NOSOTROS</a>
+          <a class="items_menu" href="#ENTREVISTAS"> ENTREVISTAS</a>
+          <a class="items_menu" href="#TOPICOS"> TÓPICOS</a>
+      </div>
+    </div>
+
+    <!-- Menu burguer-->
+    <nav class="mobile-menu ">
+        
+      <input type="checkbox" id="hamburguesa" />
+      <label for="hamburguesa">
+        <img class=" menu_svg" id="bur" src="./SVG_header/menu.svg" alt="burguer" />
+        <img  class="menu_svg" id="x"src="./SVG_header/letra-x.svg" alt="x"/>
+        
+      </label>
+
+      <ol class="nav-menu-movil">
+          <li><a class="items_menu_bur" href="#EPISODIOS"> EPISODIOS</a></li>
+          <li> <a class="items_menu_bur" href="#NOSOTROS"> NOSOTROS</a> </li>
+          <li><a class="items_menu_bur" href="#ENTREVISTAS"> ENTREVISTAS</a></li>
+          <li><a class="items_menu_bur" href="#TOPICOS"> TÓPICOS</a></li>
+      </ol>
+    </nav>
+    
+ <!--    <div class="burguer click"><img src="menu.svg" class="icono_bur"></img>
+      <ol class="hamburguesa ">  
+        <li><a class="items_menu_bur" href="#EPISODIOS"> EPISODIOS</a></li>
+        <li> <a class="items_menu_bur" href="#NOSOTROS"> NOSOTROS</a> </li>
+        <li><a class="items_menu_bur" href="#ENTREVISTAS"> ENTREVISTAS</a></li>
+        <li><a class="items_menu_bur" href="#TOPICOS"> TÓPICOS</a></li>
+      </ol>
+    </div> -->
+
+   <!--  menu burguer fin -->
+
+    <div class="portada_cont">
+      <h1 class="letra">Hello <span class="tachado"> world</span> pale blue dot<span class="punto">.</span> </br> <span class="parrafo">El portal de podcast que explora el mundo de la programación y </br>la tecnología. Nuevos episodios, todos los jueves cada 15 días.</span> <input type="button" class="conoce" value="CONOCÉ MÁS"> </input></h1>
+    </div>
+
+    <div class="figura_cont">
+      <div class="figura">
+        
+        <h2 id="EPISODIOS" class="epi_tit">Episodios </br></h2>
+       
+        <iframe class="epi" src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" scrolling="no"></iframe>
+        <iframe class="epi" src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" scrolling="no"></iframe>
+        <iframe class="epi" src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD?theme=0" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" scrolling="no"></iframe>
+        <iframe class="epi" src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" scrolling="no"></iframe>        
+      
+      </div>
+    </div>
+
+    <div id="NOSOTROS" class="wwa_cont">
+      <img class="tsh" src="phone.png"></img>
+      <span class="wwa_let">
+        <h2 class="wwa_tit"> De dónde venimos </br>  </h2>
+        <p class="wwa_p">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</br> 
+          Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+      </span>
+    </div>
+
+    <div id="ENTREVISTAS" class="entrevistas">
+      
+      <h2  class="invitados" >Invitadas/os estelares </h2>
+      
+      <img src="./images-inv/grace-hopper_1.png" class="imagenes">
+      <img src="./images-inv/Katie-Bouman_2.png"  class="imagenes">
+      <img src="./images-inv/Margaret_Hamilton_3.png" alt="" class="imagenes">
+      <img src="./images-inv/An_4.png" class="imagenes">
+      <img src="./images-inv/Computer_5.png"  class="imagenes">
+      <img src="./images-inv/susan-kare_6.png"  class="imagenes">
+    </div>
+
+    
+    <div class="topicos_conte" id="TOPICOS">
+      <h2 class="top_tit ">Algunos de nuestros temas</h2>
+      <span class="topics_mov">
+        <img src="SVG/icon1.svg"  class="iconos">
+        <h3 class="desc_icon">Trabajo remoto</h3>
+        <img src="SVG/icon2.svg"  class="iconos">
+        <h3 class="desc_icon">Repensando la </br> programación</h3>
+        <img src="SVG/icon3.svg"  class="iconos">
+        <h3 class="desc_icon">Bases del código</h3>
+        <img src="SVG/icon4.svg"  class="iconos">
+        <h3 class="desc_icon">Seguridad </br>informática</h3>
+      </span>
+      <span class="topicos">
+        <img src="SVG/icon1.svg"  class="iconos">
+        <img src="SVG/icon2.svg"  class="iconos">
+        <img src="SVG/icon3.svg"  class="iconos">
+        <img src="SVG/icon4.svg"  class="iconos">   
+      </span>
+      <span class="iconos_let">  
+        <h3 class="desc_icon">Trabajo remoto</h3>
+        <h3 class="desc_icon">Repensando la </br> programación</h3>
+        <h3 class="desc_icon">Bases del código</h3>
+        <h3 class="desc_icon">Seguridad </br>informática</h3>
+      </span>
+
+    </div>
+
+    <div class="figura dos">
+      <h2 class="ultimas">¿Querés las últimas novedades?</h2>
+      <input type="button" class="conoce" value="ESCUCHÁ LOS EPISODIOS"> </input></h1>
+    </div>
+    <footer class="feet">
+      <p class="p_foot">© 2019— Hello blue pale dot </p>
+      <div class="redes">
+        <a href="https://www.spotify.com/co/home/" ><img src="redes_icon/spotify.svg" class="redes_icon"></img></a>
+        <a href="https://www.instagram.com" ><img src="redes_icon/instagram.svg" class="redes_icon"></img></a>
+        <a href="https://www.facebook.com" ><img class="redes_icon" src="redes_icon/facebook.svg" ></img></a>
+        <a href="https://www.twitter.com" ><img class="redes_icon" src="redes_icon/gorjeo.svg"></img></a>
+        <a href="https://web.telegram.org/z/" ><img class="redes_icon" src="redes_icon/telegrama.svg"></img></a>
+
+      </div>
+    </footer>
+ 
+  </body>
+</html>
