@@ -463,6 +463,7 @@ body {
   #bur {
     z-index: 3;
     transition: 0.5s ease-in;
+    cursor: pointer;
   }
   /*aqui*/
   #hamburguesa:checked + label #bur {
@@ -470,6 +471,7 @@ body {
   }
   #hamburguesa:checked + label #x {
     z-index: 3;
+    cursor: pointer;
   }
   /*  #hamburguesa:checked ~ label.menu_svg {
     display: none;
